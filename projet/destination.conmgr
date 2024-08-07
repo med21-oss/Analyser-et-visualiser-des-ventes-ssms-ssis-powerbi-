@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="destination"
+  DTS:DTSID="{3E4DAC79-F608-4C9F-9068-903CB2AB1D6E}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\SQLEXPRESS;User ID=sa;Initial Catalog=vent;Provider=SQLNCLI11.1;Auto Translate=False;Application Name=SSIS-projet-{3E4DAC79-F608-4C9F-9068-903CB2AB1D6E}.\SQLEXPRESS.vent.sa;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPBInN+l0rEu3AXJmoSMjNwAAAAACAAAAAAAQZgAAAAEAACAAAACXxZHCArydzEo+zkgtj1Vy8JAUWgl0vKQS/rESZLSO/wAAAAAOgAAAAAIAACAAAADBZvz/zV9nMr9Qc/en7e7xW2cp2qv4KOmIzRi/rpgch3AAAABNe+Nx6wIwMu1mbGt74EH0hCEKe1RrP+Hq+n09IUSsVdwdfrGwspzx6K9NEDkG1bXUwCxd58ZdLUN1jM/XHG0bALLrl2RvHmXs4x24CveXL5CgxDNWUzmR9A+tElZts7YNwikYvC2L9Vd6vK921AZpQAAAAD3U/GO2y5hNiBMK3A3TsrSL3lu7aiOGmiLCyVkCKcfd7+kb7WjM2ropnqDcRCWhEPJFyosnijay2+POwWx1DjI=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
